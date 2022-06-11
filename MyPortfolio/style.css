@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Quicksand';
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ---------  HEADER  --------- */
+
+   /* -- barra top -- */
+
+.header {
+    background-color: #2f3030;
+    width: 100%;
+    min-height: 25em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .top-bar {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 100%;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+}
+
+img {
+    width: 15px;
+}
+
+.navegar {
+    flex: 1;
+}
+
+.navegar-top {
+    margin-left: 1.5em;
+    display: flex;
+    margin-top: 0.3em;  
+}
+.navegar-top > li {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 0.25em 0.5em;
+    border-radius: 2em;
+}
+
+.contato-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
+    margin-top: 0.3em;  
+}
+
+.contato-top > li {
+    margin-left: 2em;
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 0.25em 0.5em;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.contato-top > li > img {
+    margin-right: 5px;
+}
+
+   /* -- conteudo header -- */
+
+.content-header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    width: 60%;
+    height: 18em;
+}
+
+.about > h1 {
+    margin-top: 1.7em;
+    color: white;
+    padding-left: 5em;
+    margin-bottom: 1em ;
+}
+
+.about > p {
+    padding-left: 3em;
+    color: white;
+}
+
+.imagem {
+    width: 35%;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem > img {
+    width: 17em;
+    border-radius: 50%;
+}
+
+
+/* ---------  MAIN  --------- */
+
+.main {
+    background-color: #2f3030;
+    padding-bottom: 30px;
+}
+
+.list-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos {
+    background-color: #50535370;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 19em;
+    margin: 1.5em 0;
+    border-radius: 1em;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.texto-projetos {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 18em;
+}
+.texto-reverse {
+    margin-right: 1em;
+}
+.texto-normal {
+    margin-left: 1em;
+}
+
+.titulo-projetos {
+    background-color: #646666c9;
+    border-radius: 1em;
+    padding: 0.3em 0.8em;
+}
+
+.texto-projetos > p {
+    margin-left: 25px;
+    margin: 1em 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills > ul > li {
+    display: flex;
+    margin: 0 0.8em;
+    list-style: circle;
+    margin-bottom: 15px;
+    background-color: #161616a9;
+    padding: 0.3em 0.7em;
+    border-radius: 1em;;
+}
+
+.imagem-projetos {
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.imagem-projetos > img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+/* ---------  FOOTER  --------- */
+
+.footer {
+    background-color: #2f303093;
+    height: 2em;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-contato {
+    display: flex;
+}
+.dados-contato > ul {
+    display: flex;
+}
+.dados-contato > ul > li {
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5em;
+}
+
+.dados-contato > ul > li > img {
+    width: 20px;
+    margin-right: 0.4em;
+}
+
